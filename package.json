@@ -1,0 +1,27 @@
+{
+  "name": "restfull-api-with-express",
+  "version": "1.0.0",
+  "description": "RESTFull API with Nodejs, Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "RESTFull",
+    "NodeJS",
+    "Express",
+    "MongoDB",
+    "API"
+  ],
+  "author": "Yovanny Diaz <thebigyovadiaz@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
